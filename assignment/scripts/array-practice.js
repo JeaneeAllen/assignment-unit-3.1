@@ -135,7 +135,6 @@ var sorted_gems = gems.reverse();
 console.log(gems)
 
 
-
 // 5.c (STRETCH) TODO: Create a variable `gemString` and assign it a string value
 //     that's made up of each value from the `gems` array, but separated by the
 //     word "and".
@@ -144,6 +143,8 @@ console.log(gems)
 //     🔥 You'll need to research the .join Array method. 🔥
 //     Don't forget to console.log `gemString`...
 
+let gemString = gems.join(' and ');
+console.log(gemString)
 
 // 5.d (STRETCH) TODO: Make a new array `colorfulGems` that combines 
 //     the gems array with the colors array.
@@ -151,7 +152,8 @@ console.log(gems)
 //       ['Tourmaline', 'Topaz', 'Tanzanite', 'Iolite', 'Emerald', 'Diamond', 'yellow', 'green']
 //     Now, console.log the new array.
 
-
+let colorfulGems = gems.concat(colors);
+console.log (colorfulGems)
 
 
 // DO NOT MODIFY
